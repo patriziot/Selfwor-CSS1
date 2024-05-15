@@ -1,0 +1,19 @@
+h1, h2,h3, h4{
+    font-family: "Electrolize", sans-serif;
+    color: blue;
+}
+p{
+    font-family: "Roboto", sans-serif;
+}
+.box > article{
+    background-color: rgb(193, 182, 182);
+    transition: 100ms;
+}
+.box h4:hover {
+background-color:yellow
+}
+.box2{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.469), rgba(255, 255, 0, 0.518)), url(https://picsum.photos/2000/1000)
+}
